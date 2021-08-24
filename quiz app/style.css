@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&display=swap');
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    background-image: linear-gradient(315deg, #33cccc 0%, #ffffcc 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 27px;
+    margin: 0;
+    word-spacing: 6px;
+    min-height: 100vh;
+    text-shadow: 2px 2px 5px rgb(3, 206, 172);
+
+}
+
+.quiz-container {
+    background-color: rgb(243, 252, 249);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 1000px;
+    max-width: 100%;
+    height: 550px;
+    padding: 20px;
+    box-shadow: 0 0 0 20px #34bba4,
+    0 0 0 42px #015f48;
+    margin: 10px;
+    padding: 1px;
+}
+
+.quiz-header {
+    padding: 35px;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.9rem;
+    margin: 1.5rem 0;
+    font-family: 'Satisfy', cursive;
+    text-align: left;
+}
+
+ul li label {
+    cursor: pointer;
+    text-shadow: none;
+}
+
+button {
+    background-color: #077755;
+    border: solid rgb(8, 51, 51) 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    width: 95%;
+    margin-left: 25px;
+    padding: 1.5rem;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #0b615a;
+}
+
+button:focus {
+    background-color: #080404;
+    border: 2px white;
+    outline: none;
+}
